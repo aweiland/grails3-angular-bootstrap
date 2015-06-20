@@ -1,0 +1,20 @@
+.idea
+*.iml
+/target/
+/*.db
+*.log
+
+.DS_Store
+
+#Eclipse project files
+.project
+.classpath
+.settings/
+target-eclipse/
+target/
+
+build
+gradle
+gradlew
+gradlew.bat
+.gradle
