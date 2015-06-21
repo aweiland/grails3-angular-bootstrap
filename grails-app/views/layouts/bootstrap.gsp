@@ -31,9 +31,7 @@
 
 		<div class="container">
 			<g:render template="/_common/nav/crudbar" />
-			<div class="starter-template">
-				<g:layoutBody/>
-			</div>
+			<g:layoutBody/>
 		</div>
 
 		<asset:javascript src="application.js"/>
