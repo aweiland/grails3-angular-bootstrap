@@ -9,9 +9,8 @@ work with Grails 3.0.x and the lastest version of the twitter bootstrap plugin.
 
 You can either use this project as a template or to add to an existing Grails application:
 
-1. Install the _Twitter Bootstrap Resources_ plugin, i.e. add `runtime ":twitter-bootstrap:3.2.1"` to _BuildConfig.groovy_.
-2. Install the _Fields_ plugin, i.e. add `runtime ":fields:1.3"` to _BuildConfig.groovy_.
-3. Copy the following files into your Grails application.
+1. Install the _Fields_ plugin, i.e. add `runtime ":fields:1.3"` to _BuildConfig.groovy_.
+2. Copy the following files into your Grails application.
    * `src/templates/scaffolding/*` 
    * `grails-app/assets/**/*`
    * `grails-app/taglib/**/*`
