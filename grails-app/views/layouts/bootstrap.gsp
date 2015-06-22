@@ -26,13 +26,15 @@
 		<g:layoutHead/>
 	</head>
 
-	<body>
+	<body id="ng-app" ng-app="myapp">
 		<g:render template="/_common/nav/navbar" />
 
 		<div class="container">
 			<g:render template="/_common/nav/crudbar" />
+			<div flash-message></div>
 			<g:layoutBody/>
 		</div>
+
 
 		<asset:javascript src="application.js"/>
 	</body>

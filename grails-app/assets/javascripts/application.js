@@ -7,9 +7,9 @@
 //
 //= require jquery-2.1.3.js
 //= require grails/module
+//= require_tree myapp
 //= require bootstrap
-
-//= require_tree .
+// require_tree .
 //= require_self
 
 if (typeof jQuery !== 'undefined') {
@@ -21,3 +21,9 @@ if (typeof jQuery !== 'undefined') {
         });
     })(jQuery);
 }
+
+
+angular.module('myapp', [
+    'grails',
+    'myapp.accordian'
+]);
