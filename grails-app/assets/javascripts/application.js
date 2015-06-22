@@ -7,8 +7,8 @@
 //
 //= require jquery-2.1.3.js
 //= require grails/module
+//= require bootstrap/js/bootstrap
 //= require_tree myapp
-//= require bootstrap
 // require_tree .
 //= require_self
 
