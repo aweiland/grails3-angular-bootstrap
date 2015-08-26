@@ -3,9 +3,7 @@
 /target/
 /*.db
 *.log
-
 .DS_Store
-
 #Eclipse project files
 .project
 .classpath
@@ -18,3 +16,4 @@ gradle
 gradlew
 gradlew.bat
 .gradle
+
