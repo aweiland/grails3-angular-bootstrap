@@ -14,7 +14,7 @@ function crudBreadcrumbs($injector, defaultCrudResource) {
             var defaultResource = $injector.get(defaultCrudResource);
 			$scope.resourceName = defaultResource.getName();
 		},
-        templateUrl: 'crud-breadcrumbs.html'
+        templateUrl: '/grails/directives/crud-breadcrumbs.html'
     }
 }
 

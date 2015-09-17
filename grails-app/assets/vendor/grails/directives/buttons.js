@@ -110,13 +110,13 @@ function crudButton($location, $injector, defaultCrudResource, FlashService) {
         templateUrl: function (element, attrs) {
             switch (attrs.crudButton) {
                 case "create":
-                    return "create-button.html";
+                    return "/grails/directives/buttons/create-button.html";
                 case "edit":
-                    return "edit-button.html";
+                    return "/grails/directives/buttons/edit-button.html";
                 case "delete":
-                    return "delete-button.html";
+                    return "/grails/directives/buttons/delete-button.html";
                 case "save":
-                    return "save-button.html";
+                    return "/grails/directives/buttons/save-button.html";
             }
 
         }

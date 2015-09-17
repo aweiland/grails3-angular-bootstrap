@@ -19,7 +19,7 @@ function fieldContainer() {
             if(!field.length) { field = $element.find('textarea'); }
             field.addClass('form-control');
         },
-        templateUrl: 'field-container.html'
+        templateUrl: '/grails/directives/fields/field-container.html'
     }
 }
 
@@ -39,7 +39,7 @@ function groupContainer() {
             if(!field.length) { field = $element.find('textarea'); }
             field.addClass('form-control');
         },
-        templateUrl: 'group-container.html'
+        templateUrl: '/grails/directives/fields/group-container.html'
     }
 }
 
@@ -52,7 +52,7 @@ function displayField() {
             label: '@',
             value: '='
         },
-        templateUrl: 'display-field.html'
+        templateUrl: '/grails/directives/fields/display-field.html'
     }
 }
 
@@ -66,7 +66,7 @@ function dateField() {
             };
 
         },
-        templateUrl: 'date-field.html'
+        templateUrl: '/grails/directives/fields/date-field.html'
     }
 }
 

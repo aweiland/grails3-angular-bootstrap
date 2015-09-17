@@ -58,7 +58,7 @@ function sortableColumn() {
                 sortHeader.setSort({sort: $scope.property, order: $scope.order});
             }
         },
-        templateUrl: 'sortable-column.html'
+        templateUrl: '/grails/directives/sortable-column.html'
     }
 }
 
