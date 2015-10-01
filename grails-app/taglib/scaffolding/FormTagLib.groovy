@@ -19,13 +19,15 @@ class FormTagLib {
 		def field = attrs.remove('field')
 		def cssClass = attrs.remove('class') ?: '';
 		boolean required = attrs.remove('required') ? true: false;
+
+		def fVal = g.fieldValue(bean: bean, field: field)
 		
 		out << '<div class="form-group' << 
 			g.hasErrors(bean: bean, field: field) {
 				out << ' has-error'
 			}  << '">'
 		out << "<label class=\"control-label\" for=\"${field}\">${label}" << (required == true ? '<span class="required">*</span>' : '') << '</label>'
-		out << "<input type=\"text\" name=\"${field}\" id=\"${field}\" class=\"form-control ${cssClass}\" "
+		out << "<input type=\"text\" name=\"${field}\" id=\"${field}\" class=\"form-control ${cssClass}\" value=\"${fVal}\" "
 		attrs.each  { k, v ->
 			out << "${k} = \"${v}\" "
 		}
