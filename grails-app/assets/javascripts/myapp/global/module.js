@@ -2,8 +2,8 @@
 
 'use strict';
 
-angular.module('myapp.global', [ 'grails' ])
-	.factory('globalErrorHandler', ['$q', '$log', 'FlashService', function($q, $log, FlashService) {
+angular.module('myapp.global', [  ])
+	.factory('globalErrorHandler', ['$q', '$log', function($q, $log) {
 		
 		return {
 			response : function(response) {

@@ -19,7 +19,6 @@ plugins {
 }
 
 version "0.1"
-group "grails3.angular.bootstrap"
 
 apply plugin: "spring-boot"
 apply plugin: "war"
@@ -62,6 +61,11 @@ dependencies {
     compile "org.grails.plugins:hibernate"
     compile "org.grails.plugins:cache"
     compile "org.hibernate:hibernate-ehcache"
+
+    compile 'org.webjars:angularjs:1.4.9'
+    compile 'org.webjars:bootstrap:3.3.6'
+    compile 'org.webjars:angular-ui-bootstrap:1.1.1-1'
+    compile 'org.webjars:jquery:2.2.0'
 
     runtime "org.grails.plugins:asset-pipeline"
     runtime "org.grails.plugins:scaffolding"

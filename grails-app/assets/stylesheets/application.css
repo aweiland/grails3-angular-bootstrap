@@ -10,6 +10,6 @@
 * require main
 * require mobile
 *= require_self
-*= require bootstrap/css/bootstrap
-*= require bootstrap-theme
+*= require /webjars/bootstrap/3.3.6/css/bootstrap
+*= require /webjars/bootstrap/3.3.6/css/bootstrap-theme
 */
